@@ -1,0 +1,79 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  password_hash String
+  name          String
+  role          UserRole  @default(Admin)
+  last_login_at DateTime?
+  is_active     Boolean   @default(true)
+  created_at    DateTime  @default(now())
+  updated_at    DateTime  @updatedAt
+
+  // Demo-specific fields
+  demo_patients_created Int @default(0)
+  demo_tests_created    Int @default(0)
+  demo_reports_generated Int @default(0)
+
+  @@map("users")
+}
+
+model DemoPatient {
+  id         String   @id @default(uuid())
+  name       String
+  gender     Gender?
+  age_value  Float?
+  age_unit   String?
+  phone      String?
+  email      String?
+  address    String?
+  created_by String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  tests DemoTest[]
+
+  @@map("demo_patients")
+}
+
+model DemoTest {
+  id          String     @id @default(uuid())
+  patient_id  String
+  test_type   String
+  test_code   String?
+  status      TestStatus @default(Pending)
+  results     Json?
+  created_by  String
+  created_at  DateTime   @default(now())
+  updated_at  DateTime   @updatedAt
+
+  patient DemoPatient @relation(fields: [patient_id], references: [id], onDelete: Cascade)
+
+  @@map("demo_tests")
+}
+
+enum UserRole {
+  SuperAdmin
+  Admin
+}
+
+enum TestStatus {
+  Pending
+  InProgress
+  Completed
+  Cancelled
+}
+
+enum Gender {
+  Male
+  Female
+  Other
+}

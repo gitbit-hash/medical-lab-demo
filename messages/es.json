@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "MedicaLab - Sistema de Gestión de Laboratorio",
+    "description": "Optimice las operaciones de su laboratorio."
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "features": "Características",
+    "pricing": "Precios",
+    "demo": "Probar Demo",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse"
+  },
+  "Landing": {
+    "hero": {
+      "badge": "Gestión de Laboratorio",
+      "title": "Optimice las Operaciones de Su Laboratorio",
+      "subtitle": "La solución completa para gestionar pacientes, pruebas e informes.",
+      "tryDemo": "Probar Demo Gratis",
+      "contactSales": "Contactar",
+      "trustedBy": "Utilizado por más de 100 laboratorios"
+    },
+    "features": {
+      "title": "Características Potentes",
+      "subtitle": "Todo lo que necesita",
+      "patientManagement": {
+        "title": "Gestión de Pacientes",
+        "description": "Registros completos de pacientes."
+      },
+      "testManagement": {
+        "title": "Gestión de Pruebas",
+        "description": "Gestione pruebas de laboratorio."
+      },
+      "resultInput": {
+        "title": "Entrada de Resultados",
+        "description": "Interfaz intuitiva para ingresar resultados."
+      },
+      "pdfReports": {
+        "title": "Informes PDF",
+        "description": "Genere informes profesionales."
+      },
+      "multiLanguage": {
+        "title": "Multiidioma",
+        "description": "Soporte para varios idiomas."
+      },
+      "offlineMode": {
+        "title": "Modo Sin Conexión",
+        "description": "Trabaje sin internet."
+      },
+      "billing": {
+        "title": "Facturación",
+        "description": "Rastree tarifas y pagos."
+      },
+      "auditLogs": {
+        "title": "Registros de Auditoría",
+        "description": "Seguimiento completo de actividades."
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Comience en minutos",
+      "step1": {
+        "title": "Regístrese",
+        "description": "Cree su cuenta."
+      },
+      "step2": {
+        "title": "Agregue Pacientes",
+        "description": "Ingrese la información."
+      },
+      "step3": {
+        "title": "Ingrese Resultados",
+        "description": "Ingrese los resultados."
+      },
+      "step4": {
+        "title": "Genere Informes",
+        "description": "Cree informes PDF."
+      }
+    },
+    "pricing": {
+      "title": "Precios Simples",
+      "subtitle": "Elija el plan que funcione",
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "save": "Ahorre 20%",
+      "starter": {
+        "name": "Inicial",
+        "price": "$49",
+        "period": "/mes",
+        "description": "Perfecto para laboratorios pequeños",
+        "features": [
+          "100 pacientes/mes",
+          "5 plantillas de pruebas",
+          "Informes PDF",
+          "Soporte por email"
+        ],
+        "cta": "Comenzar"
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "$99",
+        "period": "/mes",
+        "description": "Para laboratorios en crecimiento",
+        "popular": "Más Popular",
+        "features": [
+          "500 pacientes/mes",
+          "Plantillas ilimitadas",
+          "PDF personalizado",
+          "Modo sin conexión",
+          "Soporte prioritario"
+        ],
+        "cta": "Comenzar"
+      },
+      "enterprise": {
+        "name": "Empresa",
+        "price": "Personalizado",
+        "period": "",
+        "description": "Para grandes organizaciones",
+        "features": [
+          "Pacientes ilimitados",
+          "Multi-ubicación",
+          "Acceso API",
+          "Integraciones",
+          "Gerente dedicado",
+          "Garantía SLA"
+        ],
+        "cta": "Contactar"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "¿Tiene preguntas?",
+      "q1": {
+        "question": "¿Puedo probar antes de comprar?",
+        "answer": "¡Sí! Nuestra demo gratuita le permite crear un paciente."
+      },
+      "q2": {
+        "question": "¿Son seguros mis datos?",
+        "answer": "Absolutamente. Usamos encriptación estándar."
+      },
+      "q3": {
+        "question": "¿Puedo trabajar sin conexión?",
+        "answer": "Sí, con nuestros planes Profesional y Empresa."
+      },
+      "q4": {
+        "question": "¿Qué idiomas son compatibles?",
+        "answer": "Inglés, árabe, francés y español."
+      },
+      "q5": {
+        "question": "¿Puedo personalizar los informes?",
+        "answer": "¡Sí! Puede agregar su logo."
+      },
+      "q6": {
+        "question": "¿Cómo obtengo soporte?",
+        "answer": "Ofrecemos soporte por email."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Transformar Su Laboratorio?",
+      "subtitle": "Únase a cientos de laboratorios",
+      "button": "Comenzar Demo"
+    }
+  },
+  "Footer": {
+    "description": "Sistema moderno de gestión de laboratorio.",
+    "product": "Producto",
+    "features": "Características",
+    "pricing": "Precios",
+    "demo": "Demo",
+    "company": "Empresa",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© 2026 MedicaLab. Todos los derechos reservados."
+  },
+  "Auth": {
+    "login": {
+      "title": "Bienvenido de Nuevo",
+      "subtitle": "Inicie sesión",
+      "continueWithGoogle": "Continuar con Google",
+      "continueWithFacebook": "Continuar con Facebook",
+      "noAccount": "¿No tiene cuenta?",
+      "signUp": "Regístrese"
+    },
+    "signup": {
+      "title": "Comience Su Prueba",
+      "subtitle": "Cree un paciente gratis",
+      "continueWithGoogle": "Continuar con Google",
+      "continueWithFacebook": "Continuar con Facebook",
+      "hasAccount": "¿Ya tiene cuenta?",
+      "signIn": "Iniciar sesión",
+      "terms": "Al registrarse, acepta nuestros",
+      "termsLink": "Términos",
+      "and": "y",
+      "privacyLink": "Privacidad"
+    }
+  },
+  "Demo": {
+    "dashboard": {
+      "title": "Panel de Demo",
+      "subtitle": "¡Bienvenido a su demo!",
+      "usage": {
+        "patients": "Pacientes",
+        "tests": "Pruebas",
+        "remaining": "restante"
+      },
+      "actions": {
+        "createPatient": "Crear Paciente",
+        "viewPatient": "Ver Paciente",
+        "addTests": "Agregar Pruebas",
+        "enterResults": "Ingresar Resultados",
+        "generateReport": "Generar Informe"
+      },
+      "limits": {
+        "patientLimitReached": "Límite Alcanzado",
+        "patientLimitMessage": "Limitado a 1 paciente.",
+        "testLimitReached": "Límite de Pruebas",
+        "testLimitMessage": "Limitado a 5 pruebas.",
+        "upgradeNow": "Actualizar"
+      },
+      "emptyState": {
+        "title": "Comenzar",
+        "message": "Cree su primer paciente.",
+        "cta": "Crear"
+      }
+    }
+  },
+  "Common": {
+    "language": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français",
+      "es": "Español"
+    }
+  }
+}
