@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import { locales, localeNames, type Locale } from '@/i18n/config';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Navbar() {
   const t = useTranslations('Navigation');
@@ -28,21 +29,23 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/100 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href={`/${locale}`} className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">M</span>
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-              MedicaLab
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Lab Logo"
+              width={300}
+              height={100}
+              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
+              priority
+            />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <Link key={item.href} href={item.href} className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium">
+              <Link key={item.href} href={item.href} className="text-slate-300 dark:text-slate-600 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium">
                 {item.label}
               </Link>
             ))}
@@ -50,16 +53,16 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-4">
             <div className="relative">
-              <button onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)} className="flex items-center gap-2 px-3 py-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+              <button onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)} className="flex items-center gap-2 px-3 py-2 rounded-lg text-slate-300 dark:text-slate-600 hover:bg-blue-600 dark:hover:bg-blue-400 transition-colors">
                 <Globe className="w-4 h-4" />
                 <span className="text-sm">{localeNames[locale]}</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${isLanguageDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
               <AnimatePresence>
                 {isLanguageDropdownOpen && (
-                  <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="absolute right-0 mt-2 w-40 bg-white dark:bg-slate-800 rounded-lg shadow-lg border border-slate-200 dark:border-slate-700 py-1 overflow-hidden">
+                  <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="absolute right-0 mt-2 w-40 bg-white dark:bg-slate-100 rounded-lg shadow-lg border border-slate-200 dark:border-slate-300 py-1 overflow-hidden">
                     {locales.map((loc) => (
-                      <button key={loc} onClick={() => { switchLanguage(loc); setIsLanguageDropdownOpen(false); }} className={`w-full px-4 py-2 text-left text-sm hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors ${loc === locale ? 'text-blue-600 dark:text-blue-400 font-medium' : 'text-slate-600 dark:text-slate-300'}`}>
+                      <button key={loc} onClick={() => { switchLanguage(loc); setIsLanguageDropdownOpen(false); }} className={`w-full px-4 py-2 text-left text-sm hover:bg-slate-100 dark:hover:bg-slate-300 transition-colors ${loc === locale ? 'text-blue-600 dark:text-blue-400 font-medium' : 'text-slate-100 dark:text-slate-600'}`}>
                         {localeNames[loc]}
                       </button>
                     ))}
@@ -87,12 +90,12 @@ export default function Navbar() {
               <div className="border-t border-slate-200 dark:border-slate-800 pt-3 mt-3">
                 <div className="grid grid-cols-2 gap-2 px-4">
                   {locales.map((loc) => (
-                    <button key={loc} onClick={() => { switchLanguage(loc); setIsMobileMenuOpen(false); }} className={`px-3 py-2 rounded-lg text-sm text-center ${loc === locale ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 font-medium' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'}`}>{localeNames[loc]}</button>
+                    <button key={loc} onClick={() => { switchLanguage(loc); setIsMobileMenuOpen(false); }} className={`px-3 py-2 rounded-lg text-sm text-center ${loc === locale ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-600 font-medium' : 'bg-slate-100 dark:bg-slate-800 text-red-300 dark:text-slate-600'}`}>{localeNames[loc]}</button>
                   ))}
                 </div>
               </div>
               <div className="border-t border-slate-200 dark:border-slate-800 pt-3 mt-3 space-y-2">
-                <Link href={`/${locale}/login`} onClick={() => setIsMobileMenuOpen(false)} className="block w-full px-4 py-2.5 text-center rounded-lg border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300">{t('login')}</Link>
+                <Link href={`/${locale}/login`} onClick={() => setIsMobileMenuOpen(false)} className="block w-full px-4 py-2.5 text-center rounded-lg border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-600">{t('login')}</Link>
                 <Link href={`/${locale}/signup`} onClick={() => setIsMobileMenuOpen(false)} className="block w-full px-4 py-2.5 text-center rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-medium">{t('demo')}</Link>
               </div>
             </div>

@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">M</span>
               </div>
-              <span className="text-xl font-bold text-white">MedicaLab</span>
+              <span className="text-xl font-bold text-white">LapManagerPro</span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">{t('description')}</p>
           </div>

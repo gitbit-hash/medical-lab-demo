@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "MedicaLab - Sistema de Gestión de Laboratorio",
+    "title": "LapManagerPro - Sistema de Gestión de Laboratorio",
     "description": "Optimice las operaciones de su laboratorio."
   },
   "Navigation": {
@@ -173,7 +173,7 @@
     "legal": "Legal",
     "privacy": "Privacidad",
     "terms": "Términos",
-    "copyright": "© 2026 MedicaLab. Todos los derechos reservados."
+    "copyright": "© 2026 LapManagerPro. Todos los derechos reservados."
   },
   "Auth": {
     "login": {
@@ -223,6 +223,72 @@
         "message": "Cree su primer paciente.",
         "cta": "Crear"
       }
+    },
+    "patient": {
+      "back": "Volver",
+      "new": {
+        "title": "Crear Paciente",
+        "subtitle": "Ingrese la información del paciente para comenzar"
+      },
+      "form": {
+        "name": "Nombre Completo",
+        "namePlaceholder": "Ingrese el nombre del paciente",
+        "gender": "Género",
+        "selectGender": "Seleccionar género",
+        "male": "Masculino",
+        "female": "Femenino",
+        "other": "Otro",
+        "age": "Edad",
+        "years": "Años",
+        "months": "Meses",
+        "days": "Días",
+        "phone": "Teléfono",
+        "phonePlaceholder": "+34 612 345 678",
+        "email": "Email",
+        "emailPlaceholder": "paciente@email.com",
+        "address": "Dirección",
+        "addressPlaceholder": "Ingrese la dirección",
+        "create": "Crear Paciente",
+        "creating": "Creando..."
+      },
+      "view": {
+        "createdAt": "Creado",
+        "tests": "Pruebas",
+        "addTests": "Agregar Pruebas",
+        "generateReport": "Generar Informe",
+        "noTests": "Sin Pruebas",
+        "noTestsMessage": "Agregue pruebas para comenzar",
+        "addFirstTest": "Agregar Primera Prueba",
+        "code": "Código",
+        "enterResult": "Ingresar resultado",
+        "save": "Guardar",
+        "result": "Resultado"
+      }
+    },
+    "tests": {
+      "back": "Volver al Paciente",
+      "selected": "seleccionado(s)",
+      "select": {
+        "title": "Seleccionar Pruebas",
+        "subtitle": "Puede agregar hasta {remaining} pruebas más",
+        "searchPlaceholder": "Buscar pruebas...",
+        "adding": "Agregando...",
+        "addTests": "Agregar {count} Pruebas"
+      }
+    },
+    "reports": {
+      "back": "Volver al Paciente",
+      "title": "Generar Informe",
+      "subtitle": "Cree un informe PDF de las pruebas completadas",
+      "preview": "Vista Previa",
+      "hidePreview": "Ocultar Vista Previa",
+      "print": "Imprimir",
+      "download": "Descargar PDF",
+      "completedTests": "Pruebas Completadas",
+      "pendingTests": "Pruebas Pendientes",
+      "noCompletedTests": "Sin Pruebas Completadas",
+      "noCompletedTestsMessage": "Complete al menos una prueba para generar un informe",
+      "enterResults": "Ingresar Resultados"
     }
   },
   "Common": {

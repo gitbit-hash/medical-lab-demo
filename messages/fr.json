@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "MedicaLab - Système de Gestion de Laboratoire",
+    "title": "LapManagerPro - Système de Gestion de Laboratoire",
     "description": "Rationalisez les opérations de votre laboratoire."
   },
   "Navigation": {
@@ -173,7 +173,7 @@
     "legal": "Juridique",
     "privacy": "Confidentialité",
     "terms": "Conditions",
-    "copyright": "© 2026 MedicaLab. Tous droits réservés."
+    "copyright": "© 2026 LapManagerPro. Tous droits réservés."
   },
   "Auth": {
     "login": {
@@ -223,6 +223,72 @@
         "message": "Créez votre premier patient.",
         "cta": "Créer"
       }
+    },
+    "patient": {
+      "back": "Retour",
+      "new": {
+        "title": "Créer un Patient",
+        "subtitle": "Entrez les informations du patient pour commencer"
+      },
+      "form": {
+        "name": "Nom Complet",
+        "namePlaceholder": "Entrez le nom du patient",
+        "gender": "Genre",
+        "selectGender": "Sélectionner le genre",
+        "male": "Homme",
+        "female": "Femme",
+        "other": "Autre",
+        "age": "Âge",
+        "years": "Ans",
+        "months": "Mois",
+        "days": "Jours",
+        "phone": "Téléphone",
+        "phonePlaceholder": "+33 1 23 45 67 89",
+        "email": "Email",
+        "emailPlaceholder": "patient@email.com",
+        "address": "Adresse",
+        "addressPlaceholder": "Entrez l'adresse",
+        "create": "Créer le Patient",
+        "creating": "Création..."
+      },
+      "view": {
+        "createdAt": "Créé le",
+        "tests": "Tests",
+        "addTests": "Ajouter des Tests",
+        "generateReport": "Générer un Rapport",
+        "noTests": "Pas de Tests",
+        "noTestsMessage": "Ajoutez des tests pour commencer",
+        "addFirstTest": "Ajouter Votre Premier Test",
+        "code": "Code",
+        "enterResult": "Entrer le résultat",
+        "save": "Enregistrer",
+        "result": "Résultat"
+      }
+    },
+    "tests": {
+      "back": "Retour au Patient",
+      "selected": "sélectionné(s)",
+      "select": {
+        "title": "Sélectionner des Tests",
+        "subtitle": "Vous pouvez ajouter jusqu'à {remaining} tests supplémentaires",
+        "searchPlaceholder": "Rechercher des tests...",
+        "adding": "Ajout en cours...",
+        "addTests": "Ajouter {count} Tests"
+      }
+    },
+    "reports": {
+      "back": "Retour au Patient",
+      "title": "Générer un Rapport",
+      "subtitle": "Créez un rapport PDF des tests terminés",
+      "preview": "Aperçu",
+      "hidePreview": "Masquer l'Aperçu",
+      "print": "Imprimer",
+      "download": "Télécharger PDF",
+      "completedTests": "Tests Terminés",
+      "pendingTests": "Tests en Attente",
+      "noCompletedTests": "Aucun Test Terminé",
+      "noCompletedTestsMessage": "Terminez au moins un test pour générer un rapport",
+      "enterResults": "Saisir les Résultats"
     }
   },
   "Common": {

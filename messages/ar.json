@@ -223,6 +223,72 @@
         "message": "أنشئ مريضك الأول.",
         "cta": "أنشئ مريضك"
       }
+    },
+    "patient": {
+      "back": "رجوع",
+      "new": {
+        "title": "إنشاء مريض",
+        "subtitle": "أدخل معلومات المريض للبدء"
+      },
+      "form": {
+        "name": "الاسم الكامل",
+        "namePlaceholder": "أدخل اسم المريض",
+        "gender": "الجنس",
+        "selectGender": "اختر الجنس",
+        "male": "ذكر",
+        "female": "أنثى",
+        "other": "آخر",
+        "age": "العمر",
+        "years": "سنة",
+        "months": "شهر",
+        "days": "يوم",
+        "phone": "الهاتف",
+        "phonePlaceholder": "+966 50 123 4567",
+        "email": "البريد الإلكتروني",
+        "emailPlaceholder": "patient@email.com",
+        "address": "العنوان",
+        "addressPlaceholder": "أدخل العنوان",
+        "create": "إنشاء المريض",
+        "creating": "جاري الإنشاء..."
+      },
+      "view": {
+        "createdAt": "تاريخ الإنشاء",
+        "tests": "الفحوصات",
+        "addTests": "إضافة فحوصات",
+        "generateReport": "إنشاء تقرير",
+        "noTests": "لا توجد فحوصات",
+        "noTestsMessage": "أضف فحوصات لبدء إدخال النتائج",
+        "addFirstTest": "أضف أول فحص",
+        "code": "الرمز",
+        "enterResult": "أدخل النتيجة",
+        "save": "حفظ",
+        "result": "النتيجة"
+      }
+    },
+    "tests": {
+      "back": "رجوع للمريض",
+      "selected": "محدد",
+      "select": {
+        "title": "اختر الفحوصات",
+        "subtitle": "يمكنك إضافة حتى {remaining} فحوصات إضافية",
+        "searchPlaceholder": "ابحث عن الفحوصات...",
+        "adding": "جاري الإضافة...",
+        "addTests": "إضافة {count} فحوصات"
+      }
+    },
+    "reports": {
+      "back": "رجوع للمريض",
+      "title": "إنشاء تقرير",
+      "subtitle": "إنشاء تقرير PDF للفحوصات المكتملة",
+      "preview": "معاينة",
+      "hidePreview": "إخفاء المعاينة",
+      "print": "طباعة",
+      "download": "تحميل PDF",
+      "completedTests": "الفحوصات المكتملة",
+      "pendingTests": "الفحوصات المعلقة",
+      "noCompletedTests": "لا توجد فحوصات مكتملة",
+      "noCompletedTestsMessage": "أكمل فحصاً واحداً على الأقل لإنشاء تقرير",
+      "enterResults": "إدخال نتائج الفحوصات"
     }
   },
   "Common": {

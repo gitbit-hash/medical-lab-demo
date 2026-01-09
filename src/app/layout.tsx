@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MedicaLab - Medical Laboratory Management System",
+  title: "LapManagerPro - Medical Laboratory Management System",
   description: "Streamline your laboratory operations with our advanced medical lab management system.",
 };
 

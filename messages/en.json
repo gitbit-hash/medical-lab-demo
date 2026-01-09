@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "title": "MedicaLab - Medical Laboratory Management System",
+    "title": "LapManagerPro - Medical Laboratory Management System",
     "description": "Streamline your laboratory operations with our advanced medical lab management system. Try our free demo today."
   },
   "Navigation": {
@@ -143,7 +143,7 @@
       },
       "q4": {
         "question": "What languages are supported?",
-        "answer": "MedicaLab supports English, Arabic (with RTL), French, and Spanish."
+        "answer": "LapManagerPro supports English, Arabic (with RTL), French, and Spanish."
       },
       "q5": {
         "question": "Can I customize the PDF reports?",
@@ -156,7 +156,7 @@
     },
     "cta": {
       "title": "Ready to Transform Your Laboratory?",
-      "subtitle": "Join hundreds of laboratories already using MedicaLab",
+      "subtitle": "Join hundreds of laboratories already using LapManagerPro",
       "button": "Start Free Demo"
     }
   },
@@ -173,7 +173,7 @@
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyright": "© 2026 MedicaLab. All rights reserved."
+    "copyright": "© 2026 LapManagerPro. All rights reserved."
   },
   "Auth": {
     "login": {
@@ -198,7 +198,7 @@
   "Demo": {
     "dashboard": {
       "title": "Demo Dashboard",
-      "subtitle": "Welcome to your MedicaLab demo. Try the features below!",
+      "subtitle": "Welcome to your LapManagerPro demo. Try the features below!",
       "usage": {
         "patients": "Patients",
         "tests": "Tests",
@@ -223,6 +223,72 @@
         "message": "Create your first patient to begin.",
         "cta": "Create Your Patient"
       }
+    },
+    "patient": {
+      "back": "Back",
+      "new": {
+        "title": "Create Patient",
+        "subtitle": "Enter patient information to get started"
+      },
+      "form": {
+        "name": "Full Name",
+        "namePlaceholder": "Enter patient name",
+        "gender": "Gender",
+        "selectGender": "Select gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "age": "Age",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "phone": "Phone",
+        "phonePlaceholder": "+1 234 567 8900",
+        "email": "Email",
+        "emailPlaceholder": "patient@email.com",
+        "address": "Address",
+        "addressPlaceholder": "Enter address",
+        "create": "Create Patient",
+        "creating": "Creating..."
+      },
+      "view": {
+        "createdAt": "Created",
+        "tests": "Tests",
+        "addTests": "Add Tests",
+        "generateReport": "Generate Report",
+        "noTests": "No Tests Yet",
+        "noTestsMessage": "Add tests to start entering results",
+        "addFirstTest": "Add Your First Test",
+        "code": "Code",
+        "enterResult": "Enter result",
+        "save": "Save",
+        "result": "Result"
+      }
+    },
+    "tests": {
+      "back": "Back to Patient",
+      "selected": "selected",
+      "select": {
+        "title": "Select Tests",
+        "subtitle": "You can add up to {remaining} more tests",
+        "searchPlaceholder": "Search tests...",
+        "adding": "Adding tests...",
+        "addTests": "Add {count} Tests"
+      }
+    },
+    "reports": {
+      "back": "Back to Patient",
+      "title": "Generate Report",
+      "subtitle": "Create a PDF report of completed tests",
+      "preview": "Preview",
+      "hidePreview": "Hide Preview",
+      "print": "Print",
+      "download": "Download PDF",
+      "completedTests": "Completed Tests",
+      "pendingTests": "Pending Tests",
+      "noCompletedTests": "No Completed Tests",
+      "noCompletedTestsMessage": "Complete at least one test to generate a report",
+      "enterResults": "Enter Test Results"
     }
   },
   "Common": {

@@ -57,7 +57,7 @@ export default function Hero() {
                   <div className="w-3 h-3 rounded-full bg-green-400" />
                 </div>
                 <div className="flex-1 mx-4">
-                  <div className="bg-white dark:bg-slate-700 rounded-lg px-4 py-1.5 text-sm text-slate-500 dark:text-slate-400 text-center">app.medicalab.com</div>
+                  <div className="bg-white dark:bg-slate-700 rounded-lg px-4 py-1.5 text-sm text-slate-500 dark:text-slate-400 text-center">app.LapManagerPro.com</div>
                 </div>
               </div>
               <div className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 aspect-video flex items-center justify-center">
@@ -65,7 +65,7 @@ export default function Hero() {
                   <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-2xl mb-6 shadow-lg">
                     <span className="text-3xl font-bold text-white">M</span>
                   </div>
-                  <h3 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">MedicaLab Dashboard</h3>
+                  <h3 className="text-2xl font-bold text-slate-800 dark:text-white mb-2">LapManagerPro Dashboard</h3>
                   <p className="text-slate-600 dark:text-slate-400">Your laboratory management hub</p>
                 </div>
               </div>

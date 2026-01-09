@@ -49,7 +49,7 @@ export default function DemoDashboard({ usage }: DemoDashboardProps) {
                 <span className="text-white font-bold text-sm">M</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
-                MedicaLab
+                LapManagerPro
               </span>
               <span className="px-2 py-0.5 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-xs font-medium rounded-full">
                 Demo
