@@ -22,14 +22,14 @@ export default function Pricing() {
           <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }} className="text-lg text-slate-600 dark:text-slate-400">{t('subtitle')}</motion.p>
         </div>
 
-        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="flex items-center justify-center gap-4 mb-12">
+        {/* <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="flex items-center justify-center gap-4 mb-12">
           <span className={`font-medium ${!isYearly ? 'text-slate-900 dark:text-white' : 'text-slate-500'}`}>{t('monthly')}</span>
           <button onClick={() => setIsYearly(!isYearly)} className={`relative w-14 h-7 rounded-full transition-colors ${isYearly ? 'bg-blue-500' : 'bg-slate-300 dark:bg-slate-700'}`}>
             <div className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow transition-transform ${isYearly ? 'left-8' : 'left-1'}`} />
           </button>
           <span className={`font-medium ${isYearly ? 'text-slate-900 dark:text-white' : 'text-slate-500'}`}>{t('yearly')}</span>
           {isYearly && <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-medium"><Sparkles className="w-3 h-3" />{t('save')}</span>}
-        </motion.div>
+        </motion.div> */}
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {plans.map((plan, index) => {

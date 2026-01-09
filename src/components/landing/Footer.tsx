@@ -17,7 +17,6 @@ export default function Footer() {
   const companyLinks = [
     { href: `/${locale}/about`, label: t('about') },
     { href: `/${locale}/contact`, label: t('contact') },
-    { href: `/${locale}/blog`, label: t('blog') },
   ];
 
   const legalLinks = [
