@@ -19,6 +19,7 @@ export default function Navbar() {
   const navItems = [
     { href: `/${locale}`, label: t('home') },
     { href: `/${locale}#features`, label: t('features') },
+    { href: `/${locale}/features`, label: 'Screenshots' },
     { href: `/${locale}#pricing`, label: t('pricing') },
   ];
 

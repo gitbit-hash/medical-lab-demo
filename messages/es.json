@@ -297,5 +297,146 @@
       "fr": "Français",
       "es": "Español"
     }
+  },
+  "FeaturesShowcase": {
+    "hero": {
+      "title": "Explore Nuestras Características",
+      "subtitle": "Descubra cómo LinkLab puede transformar las operaciones de su laboratorio con nuestras potentes características"
+    },
+    "sections": {
+      "adminDashboard": {
+        "title": "Panel de Super Administrador",
+        "description": "Herramientas integrales de análisis y gestión para supervisores de laboratorio. Supervise ingresos, rastree el rendimiento y acceda a todas las funciones administrativas desde un centro central.",
+        "images": {
+          "1": "Análisis de ingresos con ingresos diarios y mensuales, total de pruebas y estadísticas de Lab-to-Lab",
+          "2": "Gráficos de desglose de ingresos diarios y mensuales para información financiera",
+          "3": "Enlaces rápidos de administración para acceso rápido a funciones administrativas",
+          "4": "Pruebas de mejor rendimiento y actividad reciente de inicio de sesión de administrador",
+          "5": "Monitoreo del estado del sistema, incluyendo base de datos, sincronización y operaciones Lab-to-Lab"
+        }
+      },
+      "userManagement": {
+        "title": "Gestión de Usuarios",
+        "description": "Control completo sobre cuentas de usuario, roles y permisos. Gestione administradores, establezca niveles de acceso y configure permisos de descuento.",
+        "images": {
+          "1": "Lista de usuarios con roles, estado y acciones rápidas",
+          "2": "Configuración de permisos de usuario y descuentos"
+        }
+      },
+      "pdfSettings": {
+        "title": "Configuración de Informes PDF",
+        "description": "Personalice sus informes de laboratorio con encabezados y pies de página profesionales, logotipos y firmas electrónicas. Cree informes de marca que representen a su laboratorio.",
+        "images": {
+          "1": "Panel completo de configuración de PDF con todas las opciones",
+          "2": "Configuración de encabezado con nombre del laboratorio y especializaciones",
+          "3": "Configuración de pie de página con información del director y detalles de contacto",
+          "4": "Configuración de firma electrónica",
+          "5": "Carga de logotipo y configuración de posicionamiento"
+        }
+      },
+      "receiptSettings": {
+        "title": "Configuración de Recibos",
+        "description": "Configure recibos de facturación con información del laboratorio, logotipo y código QR de Instapay para pagos digitales convenientes.",
+        "images": {
+          "1": "Descripción general de la configuración de recibos con información del laboratorio",
+          "2": "Configuración de información de texto del laboratorio",
+          "3": "Configuración de código QR para pagos Instapay",
+          "4": "Vista previa del recibo con código QR"
+        }
+      },
+      "auditLogs": {
+        "title": "Registros de Auditoría",
+        "description": "Seguimiento completo de actividad para cumplimiento y responsabilidad. Filtre y busque a través de todas las actividades del sistema para saber quién hizo qué y cuándo.",
+        "images": {
+          "1": "Tabla de registros de auditoría con opciones de filtrado",
+          "2": "Vista detallada de la actividad con acciones del usuario"
+        }
+      },
+      "databaseBackup": {
+        "title": "Copia de Seguridad y Restauración de Base de Datos",
+        "description": "Asegure los datos de su laboratorio con una fácil funcionalidad de copia de seguridad y restauración. Nunca pierda datos importantes de pacientes y pruebas.",
+        "images": {
+          "1": "Gestión de copias de seguridad con opciones de restauración"
+        }
+      },
+      "patientManagement": {
+        "title": "Gestión de Pacientes",
+        "description": "Registros completos de pacientes con fácil registro, búsqueda y gestión. Rastree información del paciente, visitas e historial de pruebas.",
+        "images": {
+          "1": "Lista de pacientes con opciones de búsqueda y filtrado",
+          "2": "Nuevo formulario de registro de paciente",
+          "3": "Entrada de información del paciente",
+          "4": "Selección de pruebas para pacientes",
+          "5": "Opciones de pago y descuento",
+          "6": "Resumen de visita y confirmación"
+        }
+      },
+      "patientHistory": {
+        "title": "Historial del Paciente",
+        "description": "Acceda al historial completo de visitas del paciente y registros de pruebas. Rastree resultados anteriores y monitoree la salud del paciente a lo largo del tiempo.",
+        "images": {
+          "1": "Descripción general del historial de visitas del paciente",
+          "2": "Historial detallado de pruebas con resultados"
+        }
+      },
+      "testTemplates": {
+        "title": "Plantillas de Pruebas y Categorías",
+        "description": "Gestione pruebas de laboratorio con plantillas personalizables, parámetros y rangos de referencia organizados por categorías.",
+        "images": {
+          "1": "Lista de plantillas de pruebas con categorías",
+          "2": "Configuración detallada de plantilla de prueba",
+          "3": "Gestión de categorías de pruebas"
+        }
+      },
+      "resultsEntry": {
+        "title": "Entrada de Resultados",
+        "description": "Interfaz intuitiva para ingresar resultados de pruebas con validación automática, verificación de rango de referencia e indicadores de bandera.",
+        "images": {
+          "1": "Formulario de entrada de resultados de prueba",
+          "2": "Resultados con validación y banderas"
+        }
+      },
+      "labToLab": {
+        "title": "Pruebas Lab-to-Lab",
+        "description": "Gestione asociaciones con laboratorios externos. Externalice pruebas a laboratorios asociados y rastree costos para informes financieros precisos.",
+        "images": {
+          "1": "Asignación de laboratorio externo",
+          "2": "Gestión de laboratorios externos con precios"
+        }
+      },
+      "pdfReports": {
+        "title": "Informes PDF",
+        "description": "Genere informes de laboratorio profesionales con marca personalizable, resultados completos y rangos de referencia.",
+        "images": {
+          "1": "Informe de muestra de prueba CBC con histograma"
+        }
+      },
+      "receipts": {
+        "title": "Recibos de Facturación",
+        "description": "Genere recibos de facturación profesionales con pruebas detalladas, información de pago y código QR opcional para pagos digitales.",
+        "images": {
+          "1": "Muestra de recibo de facturación"
+        }
+      },
+      "casaAnalysis": {
+        "title": "Análisis CASA",
+        "description": "Integración de Análisis de Semen Asistido por Computadora (CASA) para pruebas de salud reproductiva con seguimiento detallado de parámetros.",
+        "images": {
+          "1": "Descripción general de entrada de prueba CASA",
+          "2": "Parámetros de motilidad",
+          "3": "Análisis de concentración",
+          "4": "Evaluación de morfología",
+          "5": "Parámetros adicionales",
+          "6": "Indicadores de calidad",
+          "7": "Informe de resumen",
+          "8": "Informe completo CASA PDF"
+        }
+      }
+    },
+    "navigation": {
+      "screenshots": "Capturas de pantalla",
+      "viewAll": "Ver Todas las Características",
+      "backToHome": "Volver al Inicio"
+    }
   }
 }

@@ -297,5 +297,146 @@
       "fr": "Français",
       "es": "Español"
     }
+  },
+  "FeaturesShowcase": {
+    "hero": {
+      "title": "Découvrez Nos Fonctionnalités",
+      "subtitle": "Découvrez comment LinkLab peut transformer les opérations de votre laboratoire avec nos fonctionnalités puissantes"
+    },
+    "sections": {
+      "adminDashboard": {
+        "title": "Tableau de Bord Super Admin",
+        "description": "Outils complets d'analyse et de gestion pour les superviseurs de laboratoire. Surveillez les revenus, suivez les performances et accédez à toutes les fonctions administratives depuis un hub central.",
+        "images": {
+          "1": "Analyses des revenus avec revenus quotidiens et mensuels, total des tests et statistiques Labo-à-Labo",
+          "2": "Graphiques de répartition des revenus quotidiens et mensuels pour des informations financières",
+          "3": "Liens rapides admin pour un accès rapide aux fonctions administratives",
+          "4": "Tests les plus performants et activité récente de connexion admin",
+          "5": "Surveillance de l'état du système incluant base de données, synchronisation et opérations Labo-à-Labo"
+        }
+      },
+      "userManagement": {
+        "title": "Gestion des Utilisateurs",
+        "description": "Contrôle complet des comptes utilisateurs, des rôles et des permissions. Gérez les administrateurs, définissez les niveaux d'accès et configurez les permissions de remise.",
+        "images": {
+          "1": "Liste des utilisateurs avec rôles, statut et actions rapides",
+          "2": "Configuration des permissions utilisateurs et des remises"
+        }
+      },
+      "pdfSettings": {
+        "title": "Paramètres des Rapports PDF",
+        "description": "Personnalisez vos rapports de laboratoire avec des en-têtes, pieds de page professionnels, logos et signatures électroniques. Créez des rapports de marque qui représentent votre laboratoire.",
+        "images": {
+          "1": "Tableau de bord complet des paramètres PDF avec toutes les options de configuration",
+          "2": "Paramètres d'en-tête avec nom du laboratoire et spécialisations",
+          "3": "Paramètres de pied de page avec informations du directeur et coordonnées",
+          "4": "Configuration de la signature électronique",
+          "5": "Téléchargement de logo et paramètres de positionnement"
+        }
+      },
+      "receiptSettings": {
+        "title": "Paramètres des Reçus",
+        "description": "Configurez les reçus de facturation avec les informations du laboratoire, le logo et le code QR Instapay pour des paiements numériques pratiques.",
+        "images": {
+          "1": "Aperçu des paramètres de reçus avec informations du laboratoire",
+          "2": "Configuration des informations textuelles du laboratoire",
+          "3": "Configuration du code QR pour les paiements Instapay",
+          "4": "Aperçu du reçu avec code QR"
+        }
+      },
+      "auditLogs": {
+        "title": "Journaux d'Audit",
+        "description": "Suivi complet de l'activité pour la conformité et la responsabilité. Filtrez et recherchez dans toutes les activités du système pour savoir qui a fait quoi et quand.",
+        "images": {
+          "1": "Tableau des journaux d'audit avec options de filtrage",
+          "2": "Vue détaillée de l'activité avec actions utilisateur"
+        }
+      },
+      "databaseBackup": {
+        "title": "Sauvegarde et Restauration de Base de Données",
+        "description": "Sécurisez les données de votre laboratoire avec une fonctionnalité de sauvegarde et restauration facile. Ne perdez jamais vos données patients et tests importantes.",
+        "images": {
+          "1": "Gestion des sauvegardes avec options de restauration"
+        }
+      },
+      "patientManagement": {
+        "title": "Gestion des Patients",
+        "description": "Dossiers patients complets avec inscription facile, recherche et gestion. Suivez les informations des patients, les visites et l'historique des tests.",
+        "images": {
+          "1": "Liste des patients avec options de recherche et filtrage",
+          "2": "Nouveau formulaire d'inscription patient",
+          "3": "Saisie des informations patient",
+          "4": "Sélection des tests pour les patients",
+          "5": "Options de paiement et de remise",
+          "6": "Résumé de la visite et confirmation"
+        }
+      },
+      "patientHistory": {
+        "title": "Historique Patient",
+        "description": "Accédez à l'historique complet des visites et des dossiers de tests. Suivez les résultats précédents et surveillez la santé du patient au fil du temps.",
+        "images": {
+          "1": "Aperçu de l'historique des visites patient",
+          "2": "Historique détaillé des tests avec résultats"
+        }
+      },
+      "testTemplates": {
+        "title": "Modèles de Tests et Catégories",
+        "description": "Gérez les tests de laboratoire avec des modèles personnalisables, des paramètres et des plages de référence organisés par catégories.",
+        "images": {
+          "1": "Liste des modèles de tests avec catégories",
+          "2": "Configuration détaillée du modèle de test",
+          "3": "Gestion des catégories de tests"
+        }
+      },
+      "resultsEntry": {
+        "title": "Saisie des Résultats",
+        "description": "Interface intuitive pour la saisie des résultats de test avec validation automatique, vérification des plages de référence et indicateurs d'alerte.",
+        "images": {
+          "1": "Formulaire de saisie des résultats",
+          "2": "Résultats avec validation et alertes"
+        }
+      },
+      "labToLab": {
+        "title": "Tests Labo-à-Labo",
+        "description": "Gérez les partenariats avec les laboratoires externes. Sous-traitez les tests aux laboratoires partenaires et suivez les coûts pour des rapports financiers précis.",
+        "images": {
+          "1": "Attribution de laboratoire externe",
+          "2": "Gestion des laboratoires externes avec tarification"
+        }
+      },
+      "pdfReports": {
+        "title": "Rapports PDF",
+        "description": "Générez des rapports de laboratoire professionnels avec une image de marque personnalisable, des résultats complets et des plages de référence.",
+        "images": {
+          "1": "Exemple de rapport de test NFS avec histogramme"
+        }
+      },
+      "receipts": {
+        "title": "Reçus de Facturation",
+        "description": "Générez des reçus de facturation professionnels avec des tests détaillés, des informations de paiement et un code QR optionnel pour les paiements numériques.",
+        "images": {
+          "1": "Exemple de reçu de facturation"
+        }
+      },
+      "casaAnalysis": {
+        "title": "Analyse CASA",
+        "description": "Intégration de l'analyse de sperme assistée par ordinateur (CASA) pour les tests de santé reproductive avec suivi détaillé des paramètres.",
+        "images": {
+          "1": "Aperçu de la saisie du test CASA",
+          "2": "Paramètres de motilité",
+          "3": "Analyse de concentration",
+          "4": "Évaluation de la morphologie",
+          "5": "Paramètres supplémentaires",
+          "6": "Indicateurs de qualité",
+          "7": "Rapport résumé",
+          "8": "Rapport complet CASA PDF"
+        }
+      }
+    },
+    "navigation": {
+      "screenshots": "Captures d'écran",
+      "viewAll": "Voir Toutes les Fonctionnalités",
+      "backToHome": "Retour à l'Accueil"
+    }
   }
 }

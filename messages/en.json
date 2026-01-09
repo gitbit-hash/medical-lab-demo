@@ -297,5 +297,146 @@
       "fr": "Français",
       "es": "Español"
     }
+  },
+  "FeaturesShowcase": {
+    "hero": {
+      "title": "Explore Our Features",
+      "subtitle": "Discover how LinkLab can transform your laboratory operations with our powerful features"
+    },
+    "sections": {
+      "adminDashboard": {
+        "title": "Super Admin Dashboard",
+        "description": "Comprehensive analytics and management tools for laboratory supervisors. Monitor revenue, track performance, and access all administrative functions from one central hub.",
+        "images": {
+          "1": "Revenue Analytics with Daily & Monthly Revenue, Total Tests, and Lab-to-Lab statistics",
+          "2": "Daily and Monthly Revenue Breakdown charts for financial insights",
+          "3": "Admin Quick Links for fast access to administrative functions",
+          "4": "Top Performed Tests and Recent Admin Login activity",
+          "5": "System Status monitoring including Database, Sync, and Lab-to-Lab Operations"
+        }
+      },
+      "userManagement": {
+        "title": "User Management",
+        "description": "Complete control over user accounts, roles, and permissions. Manage admin users, set access levels, and configure discount permissions.",
+        "images": {
+          "1": "User list with roles, status, and quick actions",
+          "2": "User permissions and discount settings configuration"
+        }
+      },
+      "pdfSettings": {
+        "title": "PDF Report Settings",
+        "description": "Customize your laboratory reports with professional headers, footers, logos, and electronic signatures. Create branded reports that represent your laboratory.",
+        "images": {
+          "1": "Complete PDF settings dashboard with all configuration options",
+          "2": "Header settings with laboratory name and specializations",
+          "3": "Footer settings with director information and contact details",
+          "4": "Electronic signature configuration",
+          "5": "Logo upload and positioning settings"
+        }
+      },
+      "receiptSettings": {
+        "title": "Receipt Settings",
+        "description": "Configure billing receipts with laboratory information, logo, and Instapay QR code for convenient digital payments.",
+        "images": {
+          "1": "Receipt settings overview with lab information",
+          "2": "Laboratory text information configuration",
+          "3": "QR code setup for Instapay payments",
+          "4": "Receipt preview with QR code"
+        }
+      },
+      "auditLogs": {
+        "title": "Audit Logs",
+        "description": "Complete activity tracking for compliance and accountability. Filter and search through all system activities to know who did what and when.",
+        "images": {
+          "1": "Audit logs table with filtering options",
+          "2": "Detailed activity view with user actions"
+        }
+      },
+      "databaseBackup": {
+        "title": "Database Backup & Restore",
+        "description": "Secure your laboratory data with easy backup and restore functionality. Never lose important patient and test data.",
+        "images": {
+          "1": "Backup management with restore options"
+        }
+      },
+      "patientManagement": {
+        "title": "Patient Management",
+        "description": "Comprehensive patient records with easy registration, search, and management. Track patient information, visits, and test history.",
+        "images": {
+          "1": "Patient list with search and filter options",
+          "2": "New patient registration form",
+          "3": "Patient information entry",
+          "4": "Test selection for patients",
+          "5": "Payment and discount options",
+          "6": "Visit summary and confirmation"
+        }
+      },
+      "patientHistory": {
+        "title": "Patient History",
+        "description": "Access complete patient visit history and test records. Track previous results and monitor patient health over time.",
+        "images": {
+          "1": "Patient visit history overview",
+          "2": "Detailed test history with results"
+        }
+      },
+      "testTemplates": {
+        "title": "Test Templates & Categories",
+        "description": "Manage laboratory tests with customizable templates, parameters, and reference ranges organized by categories.",
+        "images": {
+          "1": "Test template list with categories",
+          "2": "Detailed test template configuration",
+          "3": "Test categories management"
+        }
+      },
+      "resultsEntry": {
+        "title": "Results Entry",
+        "description": "Intuitive interface for entering test results with automatic validation, reference range checking, and flag indicators.",
+        "images": {
+          "1": "Test results entry form",
+          "2": "Results with validation and flags"
+        }
+      },
+      "labToLab": {
+        "title": "Lab-to-Lab Tests",
+        "description": "Manage external laboratory partnerships. Outsource tests to partner labs and track costs for accurate financial reporting.",
+        "images": {
+          "1": "External lab assignment",
+          "2": "External lab management with pricing"
+        }
+      },
+      "pdfReports": {
+        "title": "PDF Reports",
+        "description": "Generate professional laboratory reports with customizable branding, complete results, and reference ranges.",
+        "images": {
+          "1": "Sample CBC test report with histogram"
+        }
+      },
+      "receipts": {
+        "title": "Billing Receipts",
+        "description": "Generate professional billing receipts with itemized tests, payment information, and optional QR code for digital payments.",
+        "images": {
+          "1": "Sample billing receipt"
+        }
+      },
+      "casaAnalysis": {
+        "title": "CASA Analysis",
+        "description": "Computer-Assisted Semen Analysis (CASA) integration for reproductive health testing with detailed parameter tracking.",
+        "images": {
+          "1": "CASA test entry overview",
+          "2": "Motility parameters",
+          "3": "Concentration analysis",
+          "4": "Morphology assessment",
+          "5": "Additional parameters",
+          "6": "Quality indicators",
+          "7": "Summary report",
+          "8": "Complete CASA PDF report"
+        }
+      }
+    },
+    "navigation": {
+      "screenshots": "Screenshots",
+      "viewAll": "View All Features",
+      "backToHome": "Back to Home"
+    }
   }
 }
