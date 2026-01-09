@@ -61,7 +61,7 @@
       "subtitle": "Get started in minutes, not days",
       "step1": {
         "title": "Sign Up",
-        "description": "Create your account with Google or Facebook in seconds."
+        "description": "Create your account with Google in seconds."
       },
       "step2": {
         "title": "Add Patients",
@@ -180,7 +180,6 @@
       "title": "Welcome Back",
       "subtitle": "Sign in to access your laboratory dashboard",
       "continueWithGoogle": "Continue with Google",
-      "continueWithFacebook": "Continue with Facebook",
       "noAccount": "Don't have an account?",
       "signUp": "Sign up for free"
     },
@@ -188,7 +187,6 @@
       "title": "Start Your Free Trial",
       "subtitle": "Create one patient, add up to 5 tests, and generate PDF reports — completely free",
       "continueWithGoogle": "Continue with Google",
-      "continueWithFacebook": "Continue with Facebook",
       "hasAccount": "Already have an account?",
       "signIn": "Sign in",
       "terms": "By signing up, you agree to our",

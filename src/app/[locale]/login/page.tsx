@@ -5,7 +5,6 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
-import { FaFacebook } from "react-icons/fa";
 
 export default function SignInPage() {
   const router = useRouter();
@@ -68,14 +67,6 @@ export default function SignInPage() {
           >
             <FcGoogle className="w-5 h-5 mr-2" />
             Sign in with Google
-          </button>
-
-          <button
-            onClick={() => signIn("facebook", { callbackUrl: "/dashboard" })}
-            className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
-          >
-            <FaFacebook className="w-5 h-5 mr-2 text-blue-600" />
-            Sign in with Facebook
           </button>
         </div>
 

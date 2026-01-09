@@ -180,7 +180,6 @@
       "title": "Bienvenido de Nuevo",
       "subtitle": "Inicie sesión",
       "continueWithGoogle": "Continuar con Google",
-      "continueWithFacebook": "Continuar con Facebook",
       "noAccount": "¿No tiene cuenta?",
       "signUp": "Regístrese"
     },
@@ -188,7 +187,6 @@
       "title": "Comience Su Prueba",
       "subtitle": "Cree un paciente gratis",
       "continueWithGoogle": "Continuar con Google",
-      "continueWithFacebook": "Continuar con Facebook",
       "hasAccount": "¿Ya tiene cuenta?",
       "signIn": "Iniciar sesión",
       "terms": "Al registrarse, acepta nuestros",
