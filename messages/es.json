@@ -438,5 +438,104 @@
       "viewAll": "Ver Todas las Características",
       "backToHome": "Volver al Inicio"
     }
+  },
+  "About": {
+    "title": "Sobre LapManagerPro",
+    "subtitle": "Gestión Moderna de Laboratorio",
+    "description": "Proporcionamos soluciones de vanguardia para laboratorios médicos para optimizar sus operaciones, mejorar la precisión y mejorar la atención al paciente.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Empoderar a los laboratorios con tecnología que simplifica procesos complejos y les permite centrarse en lo que más importa: diagnósticos precisos."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Convertirse en el estándar global para software de gestión de laboratorios, conocido por su innovación, fiabilidad y diseño centrado en el usuario."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Innovación, Integridad, Excelencia y Éxito del Cliente están en el centro de todo lo que hacemos."
+    }
+  },
+  "Contact": {
+    "title": "Póngase en Contacto",
+    "description": "Nos encantaría saber de usted. Nuestro equipo siempre está aquí para charlar.",
+    "phone": "+2 (011) 26649009",
+    "email": "support@lapmanagerpro.com",
+    "form": {
+      "title": "Envíenos un mensaje",
+      "description": "Complete el formulario a continuación y nos pondremos en contacto con usted lo antes posible.",
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "intro": "En LapManagerPro, accesible desde lapmanagerpro.com, una de nuestras principales prioridades es la privacidad de nuestros visitantes. Este documento de Política de Privacidad contiene tipos de información que es recopilada y registrada por LapManagerPro y cómo la usamos.",
+    "collection": {
+      "title": "Información que Recopilamos",
+      "description": "La información personal que se le pide que proporcione, y las razones por las que se le pide que la proporcione, se le aclararán en el punto en que le pidamos que proporcione su información personal."
+    },
+    "usage": {
+      "title": "Cómo Usamos Su Información",
+      "description": "Usamos la información que recopilamos de varias maneras, incluyendo para proporcionar, operar y mantener nuestro sitio web, mejorar, personalizar y expandir nuestro sitio web, y comprender y analizar cómo usa nuestro sitio web."
+    },
+    "sharing": {
+      "title": "Intercambio de Información",
+      "description": "No compartimos su información personal con terceros excepto como se describe en esta política de privacidad."
+    },
+    "security": {
+      "title": "Seguridad de Datos",
+      "description": "Tomamos medidas razonables para ayudar a proteger la información sobre usted contra pérdida, robo, uso indebido y acceso no autorizado, divulgación, alteración y destrucción."
+    },
+    "cookies": {
+      "title": "Cookies y Balizas Web",
+      "description": "Como cualquier otro sitio web, LapManagerPro utiliza 'cookies'. Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes, y las páginas del sitio web a las que el visitante accedió o visitó."
+    },
+    "changes": {
+      "title": "Cambios a Esta Política de Privacidad",
+      "description": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Por lo tanto, le recomendamos que revise esta página periódicamente para ver si hay cambios."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Si tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos."
+    }
+  },
+  "Terms": {
+    "title": "Términos de Servicio",
+    "intro": "Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web de LapManagerPro, ubicado en lapmanagerpro.com.",
+    "acceptance": {
+      "title": "Aceptación de los Términos",
+      "description": "Al acceder a este sitio web asumimos que acepta estos términos y condiciones. No continúe usando LapManagerPro si no acepta tomar todos los términos y condiciones establecidos en esta página."
+    },
+    "usage": {
+      "title": "Licencia",
+      "description": "A menos que se indique lo contrario, LapManagerPro y/o sus licenciantes poseen los derechos de propiedad intelectual de todo el material en LapManagerPro. Todos los derechos de propiedad intelectual están reservados."
+    },
+    "accounts": {
+      "title": "Cuentas de Usuario",
+      "description": "Cuando crea una cuenta con nosotros, debe proporcionarnos información que sea precisa, completa y actual en todo momento. El no hacerlo constituye un incumplimiento de los Términos, lo que puede resultar en la terminación inmediata de su cuenta en nuestro Servicio."
+    },
+    "intellectual": {
+      "title": "Propiedad Intelectual",
+      "description": "El Servicio y su contenido original, características y funcionalidad son y seguirán siendo propiedad exclusiva de LapManagerPro y sus licenciantes."
+    },
+    "termination": {
+      "title": "Terminación",
+      "description": "Podemos terminar o suspender el acceso a nuestro Servicio inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluido, entre otros, si incumple los Términos."
+    },
+    "liability": {
+      "title": "Limitación de Responsabilidad",
+      "description": "En ningún caso LapManagerPro, ni sus directores, empleados, socios, agentes, proveedores o afiliados, serán responsables de ningún daño indirecto, incidental, especial, consecuente o punitivo."
+    },
+    "changes": {
+      "title": "Cambios",
+      "description": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, intentaremos proporcionar un aviso de al menos 30 días antes de que entren en vigor los nuevos términos."
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Si tiene alguna pregunta sobre estos Términos, contáctenos."
+    }
   }
 }

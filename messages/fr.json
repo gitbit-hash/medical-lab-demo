@@ -438,5 +438,104 @@
       "viewAll": "Voir Toutes les Fonctionnalités",
       "backToHome": "Retour à l'Accueil"
     }
+  },
+  "About": {
+    "title": "À Propos de LapManagerPro",
+    "subtitle": "Gestion Moderne de Laboratoire",
+    "description": "Nous fournissons des solutions de pointe pour les laboratoires médicaux afin de rationaliser leurs opérations, d'améliorer la précision et de renforcer les soins aux patients.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Permettre aux laboratoires d'utiliser une technologie qui simplifie les processus complexes et leur permet de se concentrer sur ce qui compte le plus : des diagnostics précis."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Devenir la norme mondiale en matière de logiciels de gestion de laboratoire, reconnue pour son innovation, sa fiabilité et sa conception centrée sur l'utilisateur."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "description": "L'innovation, l'intégrité, l'excellence et le succès client sont au cœur de tout ce que nous faisons."
+    }
+  },
+  "Contact": {
+    "title": "Contactez-Nous",
+    "description": "Nous aimerions avoir de vos nouvelles. Notre équipe est toujours là pour discuter.",
+    "phone": "+2 (011) 26649009",
+    "email": "support@lapmanagerpro.com",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "description": "Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible.",
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer le Message"
+    }
+  },
+  "Privacy": {
+    "title": "Politique de Confidentialité",
+    "intro": "Chez LapManagerPro, accessible depuis lapmanagerpro.com, l'une de nos priorités principales est la confidentialité de nos visiteurs. Ce document de Politique de Confidentialité contient les types d'informations collectées et enregistrées par LapManagerPro et comment nous les utilisons.",
+    "collection": {
+      "title": "Informations que Nous Collectons",
+      "description": "Les informations personnelles que l'on vous demande de fournir, et les raisons pour lesquelles on vous demande de les fournir, vous seront précisées au moment où nous vous demandons de fournir vos informations personnelles."
+    },
+    "usage": {
+      "title": "Comment Nous Utilisons Vos Informations",
+      "description": "Nous utilisons les informations que nous collectons de diverses manières, notamment pour fournir, exploiter et maintenir notre site web, améliorer, personnaliser et étendre notre site web, et comprendre et analyser comment vous utilisez notre site web."
+    },
+    "sharing": {
+      "title": "Partage d'Informations",
+      "description": "Nous ne partageons pas vos informations personnelles avec des tiers, sauf description contraire dans cette politique de confidentialité."
+    },
+    "security": {
+      "title": "Sécurité des Données",
+      "description": "Nous prenons des mesures raisonnables pour aider à protéger les informations vous concernant contre la perte, le vol, l'utilisation abusive et l'accès non autorisé, la divulgation, l'altération et la destruction."
+    },
+    "cookies": {
+      "title": "Cookies et Balises Web",
+      "description": "Comme tout autre site web, LapManagerPro utilise des 'cookies'. Ces cookies sont utilisés pour stocker des informations, notamment les préférences des visiteurs et les pages du site web auxquelles le visiteur a accédé ou qu'il a visitées."
+    },
+    "changes": {
+      "title": "Modifications de Cette Politique de Confidentialité",
+      "description": "Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Ainsi, nous vous conseillons de consulter cette page périodiquement pour tout changement."
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "description": "Si vous avez des questions ou des suggestions concernant notre Politique de Confidentialité, n'hésitez pas à nous contacter."
+    }
+  },
+  "Terms": {
+    "title": "Conditions d'Utilisation",
+    "intro": "Ces conditions générales décrivent les règles et règlements d'utilisation du site web de LapManagerPro, situé à lapmanagerpro.com.",
+    "acceptance": {
+      "title": "Acceptation des Conditions",
+      "description": "En accédant à ce site web, nous supposons que vous acceptez ces conditions générales. Ne continuez pas à utiliser LapManagerPro si vous n'acceptez pas de prendre toutes les conditions générales énoncées sur cette page."
+    },
+    "usage": {
+      "title": "Licence",
+      "description": "Sauf indication contraire, LapManagerPro et/ou ses concédants de licence détiennent les droits de propriété intellectuelle pour tout le matériel sur LapManagerPro. Tous les droits de propriété intellectuelle sont réservés."
+    },
+    "accounts": {
+      "title": "Comptes Utilisateurs",
+      "description": "Lorsque vous créez un compte chez nous, vous devez nous fournir des informations exactes, complètes et à jour à tout moment. Le non-respect de cette obligation constitue une violation des Conditions, ce qui peut entraîner la résiliation immédiate de votre compte sur notre Service."
+    },
+    "intellectual": {
+      "title": "Propriété Intellectuelle",
+      "description": "Le Service et son contenu original, ses fonctionnalités et ses caractéristiques sont et resteront la propriété exclusive de LapManagerPro et de ses concédants de licence."
+    },
+    "termination": {
+      "title": "Résiliation",
+      "description": "Nous pouvons résilier ou suspendre l'accès à notre Service immédiatement, sans préavis ni responsabilité, pour quelque raison que ce soit, y compris sans limitation si vous violez les Conditions."
+    },
+    "liability": {
+      "title": "Limitation de Responsabilité",
+      "description": "En aucun cas LapManagerPro, ni ses directeurs, employés, partenaires, agents, fournisseurs ou affiliés, ne seront responsables de tout dommage indirect, accessoire, spécial, consécutif ou punitif."
+    },
+    "changes": {
+      "title": "Changements",
+      "description": "Nous nous réservons le droit, à notre seule discrétion, de modifier ou de remplacer ces Conditions à tout moment. Si une révision est importante, nous essaierons de fournir un préavis d'au moins 30 jours avant l'entrée en vigueur de toute nouvelle condition."
+    },
+    "contact": {
+      "title": "Contactez-Nous",
+      "description": "Si vous avez des questions concernant ces Conditions, veuillez nous contacter."
+    }
   }
 }

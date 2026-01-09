@@ -438,5 +438,104 @@
       "viewAll": "View All Features",
       "backToHome": "Back to Home"
     }
+  },
+  "About": {
+    "title": "About LapManagerPro",
+    "subtitle": "Modern Laboratory Management",
+    "description": "We provide cutting-edge solutions for medical laboratories to streamline their operations, improve accuracy, and enhance patient care.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower laboratories with technology that simplifies complex processes and enables them to focus on what matters most: accurate diagnostics."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the global standard for laboratory management software, known for innovation, reliability, and user-centric design."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "Innovation, Integrity, Excellence, and Customer Success are at the core of everything we do."
+    }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "description": "We'd love to hear from you. Our team is always here to chat.",
+    "phone": "+2 (011) 26649009",
+    "email": "support@lapmanagerpro.com",
+    "form": {
+      "title": "Send us a message",
+      "description": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "intro": "At LapManagerPro, accessible from lapmanagerpro.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by LapManagerPro and how we use it.",
+    "collection": {
+      "title": "Information We Collect",
+      "description": "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information."
+    },
+    "usage": {
+      "title": "How We Use Your Information",
+      "description": "We use the information we collect in various ways, including to provide, operate, and maintain our website, improve, personalize, and expand our website, and understand and analyze how you use our website."
+    },
+    "sharing": {
+      "title": "Information Sharing",
+      "description": "We do not share your personal information with third parties except as described in this privacy policy."
+    },
+    "security": {
+      "title": "Data Security",
+      "description": "We take reasonable measures to help protect information about you from loss, theft, misuse and unauthorized access, disclosure, alteration and destruction."
+    },
+    "cookies": {
+      "title": "Cookies and Web Beacons",
+      "description": "Like any other website, LapManagerPro uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited."
+    },
+    "changes": {
+      "title": "Changes to This Privacy Policy",
+      "description": "We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us."
+    }
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "intro": "These terms and conditions outline the rules and regulations for the use of LapManagerPro's Website, located at lapmanagerpro.com.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By accessing this website we assume you accept these terms and conditions. Do not continue to use LapManagerPro if you do not agree to take all of the terms and conditions stated on this page."
+    },
+    "usage": {
+      "title": "License",
+      "description": "Unless otherwise stated, LapManagerPro and/or its licensors own the intellectual property rights for all material on LapManagerPro. All intellectual property rights are reserved."
+    },
+    "accounts": {
+      "title": "User Accounts",
+      "description": "When you create an account with us, you must provide us information that is accurate, complete, and current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account on our Service."
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "description": "The Service and its original content, features and functionality are and will remain the exclusive property of LapManagerPro and its licensors."
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "description": "In no event shall LapManagerPro, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages."
+    },
+    "changes": {
+      "title": "Changes",
+      "description": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about these Terms, please contact us."
+    }
   }
 }
