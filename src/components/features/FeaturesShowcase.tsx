@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Locale } from '@/i18n/config';
+import { useLocale } from "next-intl";
 import {
   ChevronDown,
   ChevronLeft,
@@ -182,6 +184,7 @@ function ImageCarousel({ images, sectionId }: ImageCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const t = useTranslations('FeaturesShowcase.sections');
+  const locale = useLocale() as Locale;
 
   const nextImage = () => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
@@ -315,6 +318,8 @@ interface FeatureSectionProps {
 function FeatureSection({ section, isOpen, onToggle, index }: FeatureSectionProps) {
   const t = useTranslations('FeaturesShowcase.sections');
   const Icon = section.icon;
+  const locale = useLocale() as Locale;
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
     <motion.div
@@ -328,6 +333,7 @@ function FeatureSection({ section, isOpen, onToggle, index }: FeatureSectionProp
       <button
         onClick={onToggle}
         className="w-full flex items-center gap-4 p-5 text-left hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+        dir={direction}
       >
         <div className={`flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br ${section.color} flex items-center justify-center shadow-lg`}>
           <Icon className="w-6 h-6 text-white" />
@@ -341,7 +347,7 @@ function FeatureSection({ section, isOpen, onToggle, index }: FeatureSectionProp
           </p>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
-          <span className="text-xs text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded-full">
+          <span className="text-xs text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded-full" dir='ltr'>
             {section.images.length} {section.images.length === 1 ? 'image' : 'images'}
           </span>
           <motion.div
@@ -364,9 +370,6 @@ function FeatureSection({ section, isOpen, onToggle, index }: FeatureSectionProp
             className="overflow-hidden"
           >
             <div className="p-5 pt-0 border-t border-slate-100 dark:border-slate-700">
-              <p className="text-slate-600 dark:text-slate-400 mb-6">
-                {t(`${section.id}.description` as any)}
-              </p>
               <ImageCarousel images={section.images} sectionId={section.id} />
             </div>
           </motion.div>
@@ -378,6 +381,10 @@ function FeatureSection({ section, isOpen, onToggle, index }: FeatureSectionProp
 
 export default function FeaturesShowcase() {
   const t = useTranslations('FeaturesShowcase');
+  const locale = useLocale() as Locale;
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
+
+
   const [openSections, setOpenSections] = useState<Set<string>>(new Set(['adminDashboard']));
 
   const toggleSection = (id: string) => {
@@ -401,7 +408,7 @@ export default function FeaturesShowcase() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900" dir={direction}>
       {/* Hero Section */}
       <section className="pt-24 pb-12 md:pt-32 md:pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -433,9 +440,6 @@ export default function FeaturesShowcase() {
       <section className="pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              {featureSections.length} feature sections • {featureSections.reduce((acc, s) => acc + s.images.length, 0)} screenshots
-            </p>
             <div className="flex gap-2">
               <button
                 onClick={expandAll}
@@ -480,15 +484,15 @@ export default function FeaturesShowcase() {
             viewport={{ once: true }}
             className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-8 md:p-12 text-center"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-4" dir='ltr'>
               Ready to Experience These Features?
             </h2>
-            <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-              Try our free demo and see how LinkLab can transform your laboratory operations.
+            <p className="text-blue-100 mb-8 max-w-2xl mx-auto" dir='ltr'>
+              Try our free demo and see how LabManagerPro can transform your laboratory operations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/demo"
+                href={`/${locale}/demo`}
                 className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-xl hover:bg-blue-50 transition-colors"
               >
                 Try Free Demo

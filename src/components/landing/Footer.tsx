@@ -7,7 +7,7 @@ import type { Locale } from '@/i18n/config';
 export default function Footer() {
   const t = useTranslations('Footer');
   const locale = useLocale() as Locale;
-
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
   const productLinks = [
     { href: `/${locale}#features`, label: t('features') },
     { href: `/${locale}#pricing`, label: t('pricing') },
@@ -26,7 +26,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-slate-900 text-slate-400">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" dir={direction}>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
           <div className="lg:col-span-2">
             <Link href={`/${locale}`} className="flex items-center gap-2 mb-4">

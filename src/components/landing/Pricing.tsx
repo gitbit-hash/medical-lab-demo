@@ -1,10 +1,9 @@
 'use client';
 
-import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Check, Sparkles } from 'lucide-react';
+import { Check } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 
 const plans = ['starter', 'professional', 'enterprise'] as const;
@@ -12,7 +11,15 @@ const plans = ['starter', 'professional', 'enterprise'] as const;
 export default function Pricing() {
   const t = useTranslations('Landing.pricing');
   const locale = useLocale() as Locale;
-  const [isYearly, setIsYearly] = useState(false);
+
+  const formatCurrency = (amount: number) => {
+    return new Intl.NumberFormat(locale === 'ar' ? 'ar-EG' : locale, {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+      style: 'currency',
+      currency: locale === 'ar' ? 'EGP' : locale === 'en' ? 'USD' : 'EUR',
+    }).format(amount);
+  };
 
   return (
     <section id="pricing" className="py-20 md:py-32">
@@ -21,15 +28,6 @@ export default function Pricing() {
           <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">{t('title')}</motion.h2>
           <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }} className="text-lg text-slate-600 dark:text-slate-400">{t('subtitle')}</motion.p>
         </div>
-
-        {/* <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="flex items-center justify-center gap-4 mb-12">
-          <span className={`font-medium ${!isYearly ? 'text-slate-900 dark:text-white' : 'text-slate-500'}`}>{t('monthly')}</span>
-          <button onClick={() => setIsYearly(!isYearly)} className={`relative w-14 h-7 rounded-full transition-colors ${isYearly ? 'bg-blue-500' : 'bg-slate-300 dark:bg-slate-700'}`}>
-            <div className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow transition-transform ${isYearly ? 'left-8' : 'left-1'}`} />
-          </button>
-          <span className={`font-medium ${isYearly ? 'text-slate-900 dark:text-white' : 'text-slate-500'}`}>{t('yearly')}</span>
-          {isYearly && <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-medium"><Sparkles className="w-3 h-3" />{t('save')}</span>}
-        </motion.div> */}
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {plans.map((plan, index) => {
@@ -41,8 +39,7 @@ export default function Pricing() {
                 <h3 className={`text-xl font-semibold mb-2 ${isProfessional ? 'text-white' : 'text-slate-900 dark:text-white'}`}>{t(`${plan}.name`)}</h3>
                 <p className={`text-sm mb-4 ${isProfessional ? 'text-blue-100' : 'text-slate-600 dark:text-slate-400'}`}>{t(`${plan}.description`)}</p>
                 <div className="mb-6">
-                  <span className={`text-4xl font-bold ${isProfessional ? 'text-white' : 'text-slate-900 dark:text-white'}`}>{t(`${plan}.price`)}</span>
-                  <span className={`text-sm ${isProfessional ? 'text-blue-100' : 'text-slate-500'}`}>{t(`${plan}.period`)}</span>
+                  <span className={`text-4xl font-bold ${isProfessional ? 'text-white' : 'text-slate-900 dark:text-white'}`}>{formatCurrency(Number(t(`${plan}.price`)))}</span>
                 </div>
                 <ul className="space-y-3 mb-8">
                   {features.map((feature, i) => (

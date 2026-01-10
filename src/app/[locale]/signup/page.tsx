@@ -3,6 +3,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import type { Locale } from '@/i18n/config';
+import { useLocale } from "next-intl";
 
 export default function SignUpPage() {
   const router = useRouter();
@@ -14,6 +16,8 @@ export default function SignUpPage() {
   });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const locale = useLocale() as Locale;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
@@ -56,7 +60,7 @@ export default function SignUpPage() {
       }
 
       // Redirect to sign in page
-      router.push("/auth/signin?registered=true");
+      router.push(`/${locale}/login?registered=true`);
     } catch (error: any) {
       setError(error.message);
     } finally {
@@ -73,7 +77,7 @@ export default function SignUpPage() {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Or{" "}
-            <a href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
+            <a href={`/${locale}/login`} className="font-medium text-blue-600 hover:text-blue-500">
               sign in to existing account
             </a>
           </p>

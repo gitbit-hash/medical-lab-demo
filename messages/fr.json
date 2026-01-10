@@ -84,8 +84,7 @@
       "save": "Économisez 20%",
       "starter": {
         "name": "Débutant",
-        "price": "49€",
-        "period": "/mois",
+        "price": "49",
         "description": "Parfait pour les petits laboratoires",
         "features": [
           "100 patients/mois",
@@ -97,8 +96,7 @@
       },
       "professional": {
         "name": "Professionnel",
-        "price": "99€",
-        "period": "/mois",
+        "price": "99",
         "description": "Pour les laboratoires en croissance",
         "popular": "Le Plus Populaire",
         "features": [
@@ -112,8 +110,7 @@
       },
       "enterprise": {
         "name": "Entreprise",
-        "price": "Sur Mesure",
-        "period": "",
+        "price": "300",
         "description": "Pour les grandes organisations",
         "features": [
           "Patients illimités",
@@ -301,7 +298,7 @@
   "FeaturesShowcase": {
     "hero": {
       "title": "Découvrez Nos Fonctionnalités",
-      "subtitle": "Découvrez comment LinkLab peut transformer les opérations de votre laboratoire avec nos fonctionnalités puissantes"
+      "subtitle": "Découvrez comment LabManagerPro peut transformer les opérations de votre laboratoire avec nos fonctionnalités puissantes"
     },
     "sections": {
       "adminDashboard": {

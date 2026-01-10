@@ -1,10 +1,16 @@
-import { useTranslations } from 'next-intl';
+import { Locale } from '@/i18n/config';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function AboutPage() {
   const t = useTranslations('About');
+  const locale = useLocale() as Locale;
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <div className="bg-white dark:bg-slate-900 min-h-screen">
+    <div
+      className="bg-white dark:bg-slate-900 min-h-screen"
+      dir={direction}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-center">
           <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">{t('subtitle')}</h2>

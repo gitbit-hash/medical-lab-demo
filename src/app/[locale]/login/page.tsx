@@ -5,6 +5,9 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FcGoogle } from "react-icons/fc";
+import type { Locale } from '@/i18n/config';
+import { useLocale } from "next-intl";
+
 
 export default function SignInPage() {
   const router = useRouter();
@@ -12,6 +15,8 @@ export default function SignInPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const locale = useLocale() as Locale;
 
   const handleEmailSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,7 +33,7 @@ export default function SignInPage() {
       if (result?.error) {
         setError(result.error);
       } else {
-        router.push("/dashboard");
+        router.push(`/${locale}/demo`);
         router.refresh();
       }
     } catch (error) {
@@ -47,7 +52,7 @@ export default function SignInPage() {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             Or{" "}
-            <a href="/signup" className="font-medium text-blue-600 hover:text-blue-500">
+            <a href={`/${locale}/signup`} className="font-medium text-blue-600 hover:text-blue-500">
               create a new account
             </a>
           </p>
@@ -62,7 +67,7 @@ export default function SignInPage() {
         <div className="mt-8 space-y-4">
           {/* OAuth Buttons */}
           <button
-            onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
+            onClick={() => signIn("google", { callbackUrl: `/${locale}/demo` })}
             className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
           >
             <FcGoogle className="w-5 h-5 mr-2" />

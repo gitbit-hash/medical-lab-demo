@@ -1,10 +1,16 @@
-import { useTranslations } from 'next-intl';
+import { Locale } from '@/i18n/config';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function PrivacyPage() {
   const t = useTranslations('Privacy');
+  const locale = useLocale() as Locale;
+  const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <div className="bg-white dark:bg-slate-900 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+    <div
+      className="bg-white dark:bg-slate-900 min-h-screen py-16 px-4 sm:px-6 lg:px-8"
+      dir={direction}
+    >
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl mb-8">
           {t('title')}
