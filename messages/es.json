@@ -77,22 +77,23 @@
       }
     },
     "pricing": {
-      "title": "Precios Simples",
-      "subtitle": "Elija el plan que funcione",
-      "monthly": "Mensual",
-      "yearly": "Anual",
-      "save": "Ahorre 20%",
+      "title": "Precios Simples y Transparentes",
+      "subtitle": "Elija el plan que funcione para su laboratorio",
+      "enterprisePrice": "Contáctenos",
       "starter": {
         "name": "Inicial",
-        "price": "49",
-        "description": "Perfecto para laboratorios pequeños",
+        "price": "50",
+        "description": "Ideal para laboratorios pequeños",
         "features": [
-          "100 pacientes/mes",
-          "5 plantillas de pruebas",
-          "Informes PDF",
-          "Soporte por email"
+          "Pacientes ilimitados",
+          "Plantillas de pruebas ilimitadas",
+          "Siempre requiere conexión a Internet",
+          "Sin función de envío de resultados por WhatsApp",
+          "Sin personalización de marca",
+          "Sin actualizaciones gratuitas",
+          "Soporte limitado"
         ],
-        "cta": "Comenzar"
+        "cta": "Comenzar ahora"
       },
       "professional": {
         "name": "Profesional",
@@ -100,27 +101,34 @@
         "description": "Para laboratorios en crecimiento",
         "popular": "Más Popular",
         "features": [
-          "500 pacientes/mes",
-          "Plantillas ilimitadas",
-          "PDF personalizado",
+          "Pacientes ilimitados",
+          "Plantillas de pruebas ilimitadas",
           "Modo sin conexión",
-          "Soporte prioritario"
+          "Función de envío de resultados por WhatsApp",
+          "Personalización de marca",
+          "Soporte prioritario",
+          "Actualizaciones gratuitas"
         ],
-        "cta": "Comenzar"
+        "cta": "Comenzar ahora"
       },
       "enterprise": {
         "name": "Empresa",
-        "price": "300",
+        "price": "",
         "description": "Para grandes organizaciones",
         "features": [
           "Pacientes ilimitados",
-          "Multi-ubicación",
+          "Plantillas de pruebas ilimitadas",
+          "Modo sin conexión",
+          "Función de envío de resultados por WhatsApp",
+          "Personalización de marca",
+          "Soporte multi-ubicación",
+          "Actualizaciones gratuitas",
           "Acceso API",
-          "Integraciones",
-          "Gerente dedicado",
+          "Integraciones personalizadas",
+          "Gerente de cuenta dedicado",
           "Garantía SLA"
         ],
-        "cta": "Contactar"
+        "cta": "Contactar ventas"
       }
     },
     "faq": {

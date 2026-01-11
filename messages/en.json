@@ -79,42 +79,50 @@
     "pricing": {
       "title": "Simple, Transparent Pricing",
       "subtitle": "Choose the plan that works for your laboratory",
-      "monthly": "Monthly",
-      "yearly": "Yearly",
-      "save": "Save 20%",
+      "enterprisePrice": "Contact us",
       "starter": {
         "name": "Starter",
-        "price": "  49",
-        "description": "Perfect for small labs just getting started",
+        "price": "50",
+        "description": "Ideal for small laboratories",
         "features": [
-          "Up to 100 patients/month",
-          "5 test templates",
-          "Basic PDF reports",
-          "Email support"
+          "Unlimited patients",
+          "Unlimited test templates",
+          "Always requires internet connection",
+          "No WhatsApp results sending feature",
+          "No custom branding customization",
+          "No free updates",
+          "Limited support"
         ],
-        "cta": "Get Started"
+        "cta": "Start Now"
       },
       "professional": {
         "name": "Professional",
         "price": "99",
-        "description": "For growing laboratories with more needs",
+        "description": "For growing laboratories",
         "popular": "Most Popular",
         "features": [
-          "Up to 500 patients/month",
+          "Unlimited patients",
           "Unlimited test templates",
-          "Custom PDF branding",
           "Offline mode",
-          "Priority support"
+          "WhatsApp results sending feature",
+          "Custom branding",
+          "Priority support",
+          "Free updates"
         ],
-        "cta": "Get Started"
+        "cta": "Start Now"
       },
       "enterprise": {
         "name": "Enterprise",
-        "price": "300",
-        "description": "For large organizations with custom requirements",
+        "price": "",
+        "description": "For large organizations",
         "features": [
           "Unlimited patients",
+          "Unlimited test templates",
+          "Offline mode",
+          "WhatsApp results sending feature",
+          "Custom branding",
           "Multi-location support",
+          "Free updates",
           "API access",
           "Custom integrations",
           "Dedicated account manager",

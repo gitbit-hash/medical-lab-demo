@@ -77,22 +77,23 @@
       }
     },
     "pricing": {
-      "title": "Tarification Simple",
-      "subtitle": "Choisissez le plan qui convient",
-      "monthly": "Mensuel",
-      "yearly": "Annuel",
-      "save": "Économisez 20%",
+      "title": "Tarification Simple et Transparente",
+      "subtitle": "Choisissez le plan qui convient à votre laboratoire",
+      "enterprisePrice": "Contactez-nous",
       "starter": {
         "name": "Débutant",
-        "price": "49",
-        "description": "Parfait pour les petits laboratoires",
+        "price": "50",
+        "description": "Idéal pour les petits laboratoires",
         "features": [
-          "100 patients/mois",
-          "5 modèles de tests",
-          "Rapports PDF",
-          "Support par email"
+          "Patients illimités",
+          "Modèles de tests illimités",
+          "Connexion Internet constante requise",
+          "Pas de fonction d'envoi des résultats par WhatsApp",
+          "Pas de personnalisation de la marque",
+          "Pas de mises à jour gratuites",
+          "Support limité"
         ],
-        "cta": "Commencer"
+        "cta": "Commencez maintenant"
       },
       "professional": {
         "name": "Professionnel",
@@ -100,27 +101,34 @@
         "description": "Pour les laboratoires en croissance",
         "popular": "Le Plus Populaire",
         "features": [
-          "500 patients/mois",
-          "Modèles illimités",
-          "PDF personnalisé",
+          "Patients illimités",
+          "Modèles de tests illimités",
           "Mode hors ligne",
-          "Support prioritaire"
+          "Fonction d'envoi des résultats par WhatsApp",
+          "Personnalisation de la marque",
+          "Support prioritaire",
+          "Mises à jour gratuites"
         ],
-        "cta": "Commencer"
+        "cta": "Commencez maintenant"
       },
       "enterprise": {
         "name": "Entreprise",
-        "price": "300",
+        "price": "",
         "description": "Pour les grandes organisations",
         "features": [
           "Patients illimités",
-          "Multi-sites",
+          "Modèles de tests illimités",
+          "Mode hors ligne",
+          "Fonction d'envoi des résultats par WhatsApp",
+          "Personnalisation de la marque",
+          "Support multi-sites",
+          "Mises à jour gratuites",
           "Accès API",
-          "Intégrations",
-          "Gestionnaire dédié",
+          "Intégrations personnalisées",
+          "Gestionnaire de compte dédié",
           "Garantie SLA"
         ],
-        "cta": "Contacter"
+        "cta": "Contactez les ventes"
       }
     },
     "faq": {
